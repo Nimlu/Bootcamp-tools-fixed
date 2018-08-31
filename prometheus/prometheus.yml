@@ -20,5 +20,5 @@ scrape_configs:
       - targets: ['jenkins:8080']
 
 rule_files:
-  - 'alert.rules'
+  - 'alert.rules.yml'
   
